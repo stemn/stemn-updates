@@ -1,0 +1,20 @@
+{
+   "linux-x64-prod": {
+    "update": "https://github.com/Stemn/Stemn-Desktop/releases/download/v0.0.4/STEMN-0.0.4-x86_64.AppImage",
+    "version": "0.0.4",
+    "platform": "linux",
+    "readme": "Second version"
+  },
+  "win32-x64-prod": {
+    "update": "https://github.com/Stemn/Stemn-Desktop/releases/download/v0.0.4",
+    "version": "0.0.4",
+    "platform": "win32",
+    "readme": "Version 0.0.4"
+  },
+  "darwin-x64-prod": {
+    "update": "https://github.com/Stemn/Stemn-Desktop/releases/download/v0.0.4/STEMN-0.0.4.dmg",
+    "version": "0.0.4",
+    "platform": "darwin",
+    "readme": "Second version"
+  }
+}
