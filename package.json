@@ -1,0 +1,23 @@
+{
+  "name": "stemn-updates",
+  "version": "1.0.0",
+  "description": "This file contains the most recent Stemn Desktop version.",
+  "main": "update.js",
+  "dependencies": {
+    "axios": "^0.15.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://MrBlenny:5CI99W2d3k4z@github.com/Stemn/Stemn-Updates.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stemn/Stemn-Updates/issues"
+  },
+  "homepage": "https://github.com/Stemn/Stemn-Updates#readme"
+}

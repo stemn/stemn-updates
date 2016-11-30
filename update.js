@@ -29,7 +29,6 @@ const getFileData = (tag) => {
   }
 }
 
-
 console.log('Fetching latest version from github...');
 http({
   method: 'GET',
