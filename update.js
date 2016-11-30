@@ -36,6 +36,7 @@ http({
 }).then(response => {
   const tagName = response.data.tag_name.startsWith('v') ? response.data.tag_name.substring(1) : response.data.tag_name;
   console.log('Latest version: ' + tagName);
-  fs.writeFileSync(releaseFilePath, JSON.stringify(getFileData(tagName), null, '  '));
+  const updatesData = getFileData(tagName);
+  fs.writeFileSync(releaseFilePath, JSON.stringify(updatesData, null, '  '));
 });
 
