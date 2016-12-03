@@ -13,22 +13,22 @@ const domain  = 'https://github.com';
 const getFileData = (tag) => {
   return {
     "linux-x64-prod": {
-      "update"   : `${domain}/{${owner}/${repo}/releases/download/v${tag}/${appName}-${tag}-x86_64.AppImage`,
-      "install"  : `${domain}/{${owner}/${repo}/releases/download/v${tag}/${appName}-${tag}-x86_64.AppImage`,
+      "update"   : `${domain}/${owner}/${repo}/releases/download/v${tag}/${appName}-${tag}-x86_64.AppImage`,
+      "install"  : `${domain}/${owner}/${repo}/releases/download/v${tag}/${appName}-${tag}-x86_64.AppImage`,
       "version"  : tag,
       "platform" : "linux",
       "readme"   : ""
     },
     "win32-x64-prod": {
-      "update"   : `${domain}/{${owner}/${repo}/releases/download/v${tag}`,
-      "install"  : `${domain}/{${owner}/${repo}/releases/download/v${tag}/${appName}-Setup-${tag}.exe`,
+      "update"   : `${domain}/${owner}/${repo}/releases/download/v${tag}`,
+      "install"  : `${domain}/${owner}/${repo}/releases/download/v${tag}/${appName}-Setup-${tag}.exe`,
       "version"  : tag,
       "platform" : "win32",
       "readme"   : ""
     },
     "darwin-x64-prod": {
-      "update"   : `${domain}/{${owner}/${repo}/releases/download/v${tag}/release.json`,
-      "install"  : `${domain}/{${owner}/${repo}/releases/download/v${tag}/Stemn-${tag}.dmg`,
+      "update"   : `${domain}/${owner}/${repo}/releases/download/v${tag}/release.json`,
+      "install"  : `${domain}/${owner}/${repo}/releases/download/v${tag}/Stemn-${tag}.dmg`,
       "version"  : tag,
       "platform" : "darwin",
       "readme"   : ""
