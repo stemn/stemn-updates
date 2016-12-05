@@ -39,9 +39,11 @@ const getFileData = (tag) => {
 console.log('Fetching latest version from github...');
 http({
   method: 'GET',
-  url: `https://api.github.com/repos/${owner}/${repo}/releases/latest`
+  url: `https://api.github.com/repos/${owner}/${repo}/releases`
 }).then(response => {
-  const tagName = response.data.tag_name.startsWith('v') ? response.data.tag_name.substring(1) : response.data.tag_name;
+  const releases = response.data.map(release => release.tag_name);
+  const latestRelease = releases[0]
+  const tagName = latestRelease.startsWith('v') ? latestRelease.substring(1) : latestRelease;
   console.log('Latest version: ' + tagName);
   const updatesData = getFileData(tagName);
   fs.writeFileSync(releaseFilePath, JSON.stringify(updatesData, null, '  '));
