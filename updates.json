@@ -1,22 +1,22 @@
 {
   "linux-x64-prod": {
-    "update": "https://github.com/Stemn/Stemn-Desktop/releases/download/v0.0.18/Stemn-0.0.18-x86_64.AppImage",
-    "install": "https://github.com/Stemn/Stemn-Desktop/releases/download/v0.0.18/Stemn-0.0.18-x86_64.AppImage",
-    "version": "0.0.18",
+    "update": "https://github.com/Stemn/Stemn-Desktop/releases/download/v0.0.20/Stemn-0.0.20-x86_64.AppImage",
+    "install": "https://github.com/Stemn/Stemn-Desktop/releases/download/v0.0.20/Stemn-0.0.20-x86_64.AppImage",
+    "version": "0.0.20",
     "platform": "linux",
     "readme": ""
   },
   "win32-x64-prod": {
-    "update": "https://github.com/Stemn/Stemn-Desktop/releases/download/v0.0.18",
-    "install": "https://github.com/Stemn/Stemn-Desktop/releases/download/v0.0.18/Stemn-Setup-0.0.18.exe",
-    "version": "0.0.18",
+    "update": "https://github.com/Stemn/Stemn-Desktop/releases/download/v0.0.20",
+    "install": "https://github.com/Stemn/Stemn-Desktop/releases/download/v0.0.20/Stemn-Setup-0.0.20.exe",
+    "version": "0.0.20",
     "platform": "win32",
     "readme": ""
   },
   "darwin-x64-prod": {
-    "update": "https://github.com/Stemn/Stemn-Desktop/releases/download/v0.0.18/release.json",
-    "install": "https://github.com/Stemn/Stemn-Desktop/releases/download/v0.0.18/Stemn-0.0.18.dmg",
-    "version": "0.0.18",
+    "update": "https://github.com/Stemn/Stemn-Desktop/releases/download/v0.0.20/release.json",
+    "install": "https://github.com/Stemn/Stemn-Desktop/releases/download/v0.0.20/Stemn-0.0.20.dmg",
+    "version": "0.0.20",
     "platform": "darwin",
     "readme": ""
   }
